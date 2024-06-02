@@ -1,0 +1,161 @@
+.single-content {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding-bottom: 300px;
+}
+
+.title_user
+{
+  font-size: 25px;
+  font-weight: bold;
+  color: #007bff;
+  text-align: start;
+
+}
+
+.single-content h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+  text-align: start;
+}
+
+.order-details {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 10px;
+}
+
+.order-label {
+  font-weight: bold;
+  background-color: #e9ecef;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.order-value {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.validate-button {
+  padding: 8px 12px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.validate-button:hover {
+  background-color: #0056b3;
+}
+.order-summary
+{
+  margin-top: -10px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.react-confirm-alert-body {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 600px) {
+  .order-details {
+    grid-template-columns: 1fr;
+  }
+
+  .order-value {
+    margin-bottom: 10px;
+  }
+  .single-content
+  {
+    width: 85%;
+    border-radius: none;
+    box-shadow: none;
+    margin: 20px 0;
+  }
+  .order-summary__card
+  {
+    all: unset;
+    border: 1px solid #ccc;
+    padding: 30px;
+    width: 100%;
+    border-radius: 8px;
+    margin-left: 30px;
+  }
+}
+
+
+/* Container for the order dashboard */
+.order-dashBoard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  margin: 20px;
+  width: 100%;
+}
+
+
+/* Container for the order image */
+.dashBoard-order-image img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+/* Container for the order details */
+.dashBoard-order-details {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Styling for the title */
+.dashBoard-order-details h2 {
+  font-size: 24px;
+  margin: 0 0 10px;
+  color: #333;
+}
+
+/* Styling for the description */
+.dashBoard-order-details p {
+  font-size: 16px;
+  color: #666;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+  .order-dashBoard {
+    margin: 10px;
+  }
+
+  .dashBoard-order-details h2 {
+    font-size: 20px;
+  }
+
+  .dashBoard-order-details p {
+    font-size: 14px;
+  }
+}

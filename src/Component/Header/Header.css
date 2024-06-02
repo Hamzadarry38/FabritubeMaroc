@@ -1,0 +1,276 @@
+header
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  height: 70px;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+.logo
+{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.menuIcon
+{
+  display: none;
+}
+header .header_left
+{
+  display: flex;
+  align-items: center;
+}
+header .header_left img
+{
+  width: 80px;
+}
+
+header .header_right
+{
+  margin-right: 50px;
+}
+header .header_right ul
+{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+header .header_right ul a
+{
+  display: flex;
+  align-items: center;
+}
+h1
+{
+  font-size: 20px;
+  color: #007BFF;
+  margin-left: 8px;
+}
+.clicked
+{
+  color: #007BFF;
+}
+header .header_right ul li:hover
+{
+  color: #007BFF;
+}
+
+/* Button Login */
+.login
+{
+  background-color: #007BFF;
+  color: white; /* White text */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners */
+  padding: 10px 20px; /* Padding for the button */
+  font-size: 16px; /* Font size */
+  font-weight: 600; /* Slightly bolder text */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+
+.logout-button {
+  background-color: #6c757d; /* Use a prominent color for logout button */
+  color: white; /* Text color */
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add transition for smooth hover effect */
+  margin-right: 10px;
+  margin-left: 10px;
+}
+  /* Hover effect */
+.logout-button:hover {
+    background-color: #5a6269; /* Change background color on hover */
+  }
+
+  /* Focus outline */
+.logout-button:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5); /* Add custom focus outline */
+  }
+
+/* Active state */
+.logout-button:active {
+  transform: translateY(1px); /* Add slight downward movement when button is clicked */
+}
+
+
+.dashboard-link {
+  text-decoration: none; /* Remove underline from link */
+}
+
+.dashboard-button {
+  background-color: #007bff; /* Primary blue color */
+  color: white; /* White text */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners */
+  padding: 10px 20px; /* Padding for the button */
+  font-size: 16px; /* Font size */
+  font-weight: 600; /* Slightly bolder text */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+.dashboard-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.routeLink {
+  text-decoration: none; /* Remove underline from link */
+}
+
+.language
+{
+  color: rgb(0, 0, 0); 
+  width: 50px;
+  height: 40px;
+  border: none; 
+  border-radius: 4px; 
+  font-size: 20px; 
+  font-weight: 600; 
+  cursor: pointer; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.language__cover {
+  background-color: #007bff;
+  position: absolute;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  height: 100;
+  margin-right: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.language__cover::before {
+  content: "";
+  background-color: #007bff;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -15px;
+  left: 70%;
+  transform: translateX(-70%);
+  clip-path: polygon(50% 0%, 0 78%, 100% 78%);
+  z-index: 1; /* Ensure the pseudo-element is above other content */
+}
+
+.language__cover button
+{
+  background-color: #007bff;
+  color: white; 
+  border: none; 
+  border-radius: 4px; 
+  font-size: 16px; 
+  font-weight: 600; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+
+@media (max-width: 600px) {
+  .dashboard-button {
+    padding: 8px 16px; /* Reduce padding for smaller screens */
+    font-size: 14px; /* Smaller font size */
+    list-style: none;
+  }
+  header
+  {
+    all: unset;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 60px;
+    top: 0;
+  }
+  .menuIcon
+  {
+    display: block;
+  }
+  .header_left{
+    all: unset;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.202);
+  }
+  header .header_left img{
+    all: unset;
+    width: 60px !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px !important;
+  }
+  .header_right
+  {
+    all: unset;
+    background-color: #000000;
+  }
+  .header_right ul
+  {
+    position: absolute;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255) !important;
+    width: 100%;
+    padding: 10px 0 20px 10px;
+    transition: all 0.5s;
+    margin: -1px;
+    border-bottom: 3px solid #00000028;
+    padding-left: 50px;
+  }
+  /* TODO: */
+  .header_right ul a 
+  {
+    padding: 3px 0;
+    list-style: none;
+  }
+
+  .menu
+  { 
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 28px;
+    margin-right: 20px;
+    font-size: 30px;
+  }
+  .logout-button {
+    background-color: #6c757d; /* Use a prominent color for logout button */
+    color: white; /* Text color */
+    border: none;
+    padding: 7px 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 70%;
+    display: block;
+  }
+  .language__cover
+  {
+    margin-top: 306px;
+    /* margin-right: 306px !important; */
+  }
+}

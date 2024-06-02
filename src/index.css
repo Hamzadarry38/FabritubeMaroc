@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* This targets the scrollbar and sets its width to 10px */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* This targets the track (background) of the scrollbar and sets its color to #f1f1f1 */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* This targets the thumb (the moving part) of the scrollbar and sets its color to #888 */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* This targets the thumb of the scrollbar when it's hovered over and sets its color to #555 */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

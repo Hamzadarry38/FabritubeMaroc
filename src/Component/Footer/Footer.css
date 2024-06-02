@@ -1,0 +1,146 @@
+:root {
+    --primary-bg-color: #0056b3;
+    --text-color-light: #ffffff;
+    --text-color-muted: #dfdfeb;
+    --border-color: #0d325a;
+    --input-bg-color: #0056b3;
+    --hover-bg-color: #073d75;
+}
+
+.footer_global {
+    background-color: var(--primary-bg-color);
+}
+
+.footer_global .footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    width: 70%;
+    margin: auto;
+}
+
+.footer_global .footer .footerOne,
+.footer_global .footer .footerTwo,
+.footer_global .footer .footerContact {
+    width: 30%;
+    text-align: start;
+    padding: 30px;
+}
+.footer_global .footer .footerTwo p
+{
+    margin-left: 23px;
+}
+
+.footer_global .footer .footerOne h1,
+.footer_global .footer .footerTwo h1,
+.footer_global .footer .footerContact h1 {
+    color: var(--text-color-light);
+    font-size: 18px;
+}
+
+.footer_global .footer .footerOne p,
+.footer_global .footer .footerTwo p {
+    color: var(--text-color-muted);
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 1.7;
+    letter-spacing: 0.9px;
+}
+
+.footer_global .footer .footerContact input,
+.footer_global .footer .footerContact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid var(--text-color-muted);
+    background-color: var(--input-bg-color);
+    color: var(--text-color-muted);
+    font-size: 14px;
+    outline: none;
+}
+
+.footer_global .footer .footerContact button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: 1px solid var(--text-color-muted);
+    background-color: var(--input-bg-color);
+    color: var(--text-color-muted);
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.footer_global .footer .footerContact button:hover {
+    background-color: var(--hover-bg-color);
+    color: var(--text-color-light);
+}
+
+.footer_global .footerBottom {
+    border-top: 1px solid var(--border-color);
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.footer_global .footerBottom p {
+    color: var(--text-color-muted);
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 1.7;
+    letter-spacing: 0.9px;
+}
+
+.footer_global .footerBottom nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_global .footerBottom nav a {
+    color: var(--text-color-muted);
+    font-size: 20px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer_global .footerBottom nav a:hover {
+    color: var(--text-color-light);
+}
+
+img {
+    width: 200px;
+}
+
+.icons_footer
+{
+    font-size: 20px;
+    position: absolute;
+    color: white;
+    margin-top: 2px;
+}
+
+@media (max-width: 600px) {
+    .footer_global .footer {
+        display: block;
+        width: 90%;
+        text-align: start;
+    }
+    .footer_global .footer .footerOne,
+    .footer_global .footer .footerTwo,
+    .footer_global .footer .footerContact {
+        width: 80%;
+        text-align: start;
+    }
+    .footer_global .footer .footerContact input {
+        width: 300px;
+    }
+    .footer_global .footer .footerContact textarea {
+        max-width: 300px;
+        min-width: 300px;
+    }
+    .footer_global .footerBottom {
+        width: 90%;
+    }
+}

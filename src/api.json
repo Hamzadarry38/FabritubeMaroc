@@ -1,0 +1,22 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "TUBE RECTANGULAIRE",
+            "description": "Le TUBE RECTANGULAIRE est un tube à section rectangulaire, couramment utilisé dans diverses applications industrielles et de construction pour sa robustesse et sa capacité à supporter des charges importantes.",
+            "image": "https://firebasestorage.googleapis.com/v0/b/atlantinox-cd2fb.appspot.com/o/Product%2FTube_rectangulaire.jpg?alt=media&token=b9328c40-4585-44ad-9889-403cf2e4a37b"
+        },
+        {
+            "id": 2,
+            "title": "TUBE CARRÉ",
+            "description":"Le TUBE CARRÉ est un tube à section carrée, utilisé dans de nombreuses applications en ingénierie et en architecture en raison de sa solidité et de sa résistance.",
+            "image": "https://firebasestorage.googleapis.com/v0/b/atlantinox-cd2fb.appspot.com/o/Product%2Ftube-carre-acier-20x20-1-348x225.jpg?alt=media&token=aff2edb8-018f-45d4-b545-d06c6f356901"
+        },
+        {
+            "id": 3,
+            "title": "TUBE ROND",
+            "description": "Le TUBE ROND est un tube à section circulaire, largement utilisé dans les domaines de l'ingénierie, de la construction et de l'industrie en raison de sa résistance uniforme à la pression et à la flexion.",
+            "image": "https://firebasestorage.googleapis.com/v0/b/atlantinox-cd2fb.appspot.com/o/Product%2Fupp-pic-3.jpg?alt=media&token=b256b793-f071-4d5e-b9c6-2c5cb3428c3a"
+        }
+    ]
+}
