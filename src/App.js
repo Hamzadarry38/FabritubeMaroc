@@ -20,6 +20,7 @@ const Layout = ({ children }) => {
   const isNotFound = location.pathname === '*';
 
   return (
+  // update the layout to include the header and footer components
     <>
       {!isNotFound && <Header />}
       {children}
