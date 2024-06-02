@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/FabritubeMaroc/static/css/main.c0424d6e.css",
+    "main.js": "/FabritubeMaroc/static/js/main.d542d52c.js",
+    "index.html": "/FabritubeMaroc/index.html",
+    "main.c0424d6e.css.map": "/FabritubeMaroc/static/css/main.c0424d6e.css.map",
+    "main.d542d52c.js.map": "/FabritubeMaroc/static/js/main.d542d52c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0424d6e.css",
+    "static/js/main.d542d52c.js"
+  ]
+}
